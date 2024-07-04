@@ -28,7 +28,7 @@ Welcome to our Online Bookstore Management System! This comprehensive system is 
   - 9. Checkout
   - 10. Exit
 - Cart Functionality: Allow users to add or delete items in their cart, with the ability to clear the cart with a single action.
-- Discounts: Implement special discounts, such as a discount of 200 for customers who buy 5 books.
+- Discounts: Implement special discounts
 - User-Friendly Interface: Provide a simple and intuitive interface for both admins and users to navigate and interact with the system.
 - Detailed Reporting: Generate reports on sales, inventory levels, and user activity to make informed business decisions.
 
