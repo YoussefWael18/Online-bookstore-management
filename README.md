@@ -1,37 +1,40 @@
+# Online-bookstore-management
 
 
-Online Bookstore Management System
 
-Welcome to our Online Bookstore Management System! This comprehensive system is designed to streamline the management of a digital bookstore, making it easy to handle inventory, process sales, and provide an excellent user experience.
+This object-oriented Python project streamlines the management of an online bookstore, handling inventory, sales, and user interactions with admin/user modes, cart functionality, discounts, and reporting.
 
- Features:
+## Features
 - **Inventory Management**: Efficiently manage books, magazines, and DVDs with separate classes for each item type.
-- **User Modes**: Switch between admin and user modes using numeric input, ensuring secure access with a password check for admin mode.
-  - For Admin mode: Enter 1
-  - For User mode: Enter 2
-- Admin Mode: 
-  - Please enter the password for admin mode: `admin123`
-  - Please enter to add:
-    1. Books
-    2. Magazine
-    3. DVD
-    4. Items management
-- User Mode Menu:
-  - 1. Print items on display
-  - 2. Add Book to Cart
-  - 3. Add Magazine to Cart
-  - 4. Add DVD to Cart
-  - 5. View Cart
-  - 6. Remove Book from Cart
-  - 7. Remove Magazine from Cart
-  - 8. Remove DVD from Cart
-  - 9. Checkout
-  - 10. Exit
-- Cart Functionality: Allow users to add or delete items in their cart, with the ability to clear the cart with a single action.
-- Discounts: Implement special discounts
-- User-Friendly Interface: Provide a simple and intuitive interface for both admins and users to navigate and interact with the system.
-- Detailed Reporting: Generate reports on sales, inventory levels, and user activity to make informed business decisions.
+- **User Modes**: Switch between admin and user modes using numeric input (1 for Admin, 2 for User), with password `admin123` for admin access.
+  - **Admin Mode Menu**:
+    - 0. Add Books
+    - 1. Add Magazine
+    - 2. Add DVD
+    - 3. Items Management
+  - **User Mode Menu**:
+    - 0. Print items on display
+    - 1. Add Book to Cart
+    - 2. Add Magazine to Cart
+    - 3. Add DVD to Cart
+    - 4. View Cart
+    - 5. Remove Book from Cart
+    - 6. Remove Magazine from Cart
+    - 7. Remove DVD from Cart
+    - 8. Checkout
+    - 9. Exit
+- **Cart Functionality**: Add, delete, or clear items in the cart with a single action.
+- **Discounts**: Implement special discounts (customize in code).
+- **User-Friendly Interface**: Simple and intuitive navigation for admins and users.
+- **Detailed Reporting**: Generate reports on sales, inventory levels, and user activity.
 
-This system is built with flexibility and scalability in mind, making it suitable for small bookstores looking to expand their digital presence or larger stores seeking to optimize their online operations.
+## Repository Structure
+- `src/`: Python scripts for the management system (e.g., `bookstore_management.py`)
+## Technologies
+- Python
 
-Explore the code, use it as a learning resource, or contribute to enhance its functionality. Your feedback and suggestions are always welcome!
+## How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YoussefWael18/Online-bookstore-management.git
+   cd Online-bookstore-management
